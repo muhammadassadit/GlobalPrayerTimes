@@ -1,0 +1,6 @@
+framework module Pods_WorldPrayerTimes {
+  umbrella header "Pods-WorldPrayerTimes-umbrella.h"
+
+  export *
+  module * { export * }
+}

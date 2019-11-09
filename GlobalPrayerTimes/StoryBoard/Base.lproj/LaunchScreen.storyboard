@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="60240212-stock-vector-traditionally-clothed-muslim-man-and-woman-making-a-supplication-salah-while-sitting-on-a-praying-ru" translatesAutoresizingMaskIntoConstraints="NO" id="Uri-XB-R1m">
+                                <rect key="frame" x="0.0" y="124" width="320" height="320"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="320" id="3Fo-gK-ccS"/>
+                                    <constraint firstAttribute="height" constant="320" id="5eS-O2-E2B"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Global Prayer Times " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Aag-rS-Km4">
+                                <rect key="frame" x="16" y="42" width="288" height="51"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.011764705882352941" green="0.76862745098039209" blue="0.74509803921568629" alpha="0.5" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Aag-rS-Km4" firstAttribute="centerX" secondItem="Uri-XB-R1m" secondAttribute="centerX" id="3Z8-rT-0PL"/>
+                            <constraint firstItem="Uri-XB-R1m" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="RzC-mG-Vix"/>
+                            <constraint firstItem="Uri-XB-R1m" firstAttribute="top" secondItem="Aag-rS-Km4" secondAttribute="bottom" constant="31" id="UWa-rf-tye"/>
+                            <constraint firstItem="Uri-XB-R1m" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="hkn-IB-2dF"/>
+                            <constraint firstItem="Aag-rS-Km4" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" id="mA4-Fz-36F"/>
+                            <constraint firstItem="Aag-rS-Km4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="22" id="neh-a4-hb6"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.5" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="60240212-stock-vector-traditionally-clothed-muslim-man-and-woman-making-a-supplication-salah-while-sitting-on-a-praying-ru" width="450" height="450"/>
+    </resources>
+</document>
